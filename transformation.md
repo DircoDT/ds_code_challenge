@@ -4,8 +4,6 @@
 
 Use **pip** or **conda** to install the required packages/libraries before running the notebook.
 
-
-
 ```python
 #!pip install -r requirements.txt
 
@@ -113,23 +111,7 @@ Let's see what the schema looks like by just showing 1 item from each...
 pd.read_csv(data_folder / 'sr.csv.gz', nrows=1, index_col=0)
 ```
 
-
-
-
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -181,23 +163,7 @@ pd.read_csv(data_folder / 'sr.csv.gz', nrows=1, index_col=0)
 gpd.read_file(data_folder / 'city-hex-polygons-8.geojson', index_col='index').head(1)
 ```
 
-
-
-
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -536,23 +502,7 @@ gdf_final
 
 ```
 
-
-
-
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -656,23 +606,7 @@ datapoints = datapoints.set_crs(epsg=4326)
 datapoints
 ```
 
-
-
-
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
