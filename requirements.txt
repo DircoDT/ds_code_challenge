@@ -1,0 +1,12 @@
+# Tested with Python 3.10 on Windows (x64)
+jupyterlab
+pandas
+vaex
+dask
+distributed
+geopandas
+h3
+h3pandas
+matplotlib
+folium
+#pydeck
