@@ -15,23 +15,28 @@ Data Visualisation Engineer applicants only have to complete **tasks 2 & 6**.
 
 The solution was implemented using JupyterLab in a **Python 3.10** environment. (At the time of writing, not all the packages are available for Python 3.11 yet.)
 
+There are some further Markdown-format explanations in the notebook itself.
+
 * [transformation.ipynb](./transformation.ipynb)
 
-There are some further Markdown-format explanations in the notebook itself.
+Alternative output formats:
+
+* [transformation.md](./transformation.md)
+* [transformation.html](./transformation.html) *(includes interactive map)*
 
 ### Environment
 
 Environment setup scripts are included for Windows:
 
-* [`activate.bat`](activate.bat)
-  Creates and activates a Python virtual environment
+1. [`activate.bat`](activate.bat)
+   Creates and activates a Python virtual environment
 
-* [`requirements.bat`](requirements.bat)
-  Installs pip and the required Python packages
+2. [`requirements.bat`](requirements.bat)
+   Installs pip and the required Python packages
 
-* [`jupyterlab.bat`](jupyterlab.bat)
-  Opens the notebook in Jupyter Lab
-  *Set notebook to Trusted to enable the final interactive visualisation.*
+3. [`jupyterlab.bat`](jupyterlab.bat)
+   Opens the notebook in Jupyter Lab
+   *Set notebook to Trusted to enable the final interactive visualisation.*
 
 The notebook should work on other operating systems too, assuming the above setup scripts are modified accordingly.
 
