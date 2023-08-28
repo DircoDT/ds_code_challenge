@@ -62,7 +62,7 @@ Source code:
 * [https://github.com/DircoDT/DircoDT.github.io](https://github.com/DircoDT/DircoDT.github.io)
 
 Live demo:
-* [https://dircodt.github.io/index.html](https://dircodt.github.io/index.html)
+* [https://dircodt.github.io/](https://dircodt.github.io/)
 
 #### Data Storytelling
 
